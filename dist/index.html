@@ -53,6 +53,7 @@
       setInterval(function () {
         img[0].src = gifs[index];
         index = (index + 1) % gifs.length;
+        console.log(gifs[index]);
       }, 10000)
     })
   });
